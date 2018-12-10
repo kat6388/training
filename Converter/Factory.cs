@@ -25,6 +25,7 @@ namespace Converter
             var distance = new Distance();
 
             double result = 0.0;
+
             //Weight converters
             if ( from == "Gr" && to == "Pnd")
             {
@@ -103,10 +104,7 @@ namespace Converter
             }
 
             else throw new Exception("Invalid converters");
-
-            //return tempResult;
             Console.WriteLine(result);
-
         }
     }
 }
